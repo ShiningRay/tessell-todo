@@ -1,0 +1,13 @@
+/lib/
+/bin/
+/.shards/
+/.crystal/
+*.dwarf
+*.exe
+*.pdb
+*.ilk
+*.obj
+/docs/*.tsraw
+/docs/*.tmp
+/todos.json
+.DS_Store

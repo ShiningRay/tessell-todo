@@ -1,0 +1,19 @@
+name: tessell-todo
+version: 0.1.0
+description: A Todo List desktop app built with Tessell (Crystal GUI framework).
+
+authors:
+  - ShiningRay
+
+crystal: ">= 1.21.0"
+
+license: MIT
+
+dependencies:
+  tessell:
+    github: ShiningRay/tessell
+    branch: main
+
+targets:
+  tessell-todo:
+    main: src/tessell_todo.cr
